@@ -1,0 +1,22 @@
+{
+  "name": "html-wireframes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "datatables": "^1.10.12",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "node-sass --outputstyle expanded -r scss -o css",
+    "watch:scss": "npm run build:scss && npm run build:scss -- -w",
+    "start": "npm run watch:scss"
+  },
+  "author": "Dustin Page",
+  "license": "ISC"
+}

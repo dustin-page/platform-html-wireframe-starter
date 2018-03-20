@@ -1,0 +1,14 @@
+@import 'fonts';
+@import 'variables';
+ 
+$orangeColor: #fc9a1e;
+$filterColor: #fff;
+$filterLinkColor: #126ea5;
+$filterLinkCurrentColor: #fff;
+$filterBGColor: #24394d;
+$linearBGColorLeft:$filterBGColor; 
+$linearBGColorRight: #2a4a6a;
+
+.btn-default {
+    background-color: $orangeColor;
+}
